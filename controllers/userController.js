@@ -28,7 +28,6 @@ exports.getUser = async (req, res, next) => {
   } catch (error) {
     console.log(error);
   }
-  console.log(filteredData);
   if (filteredData.length > 0) {
     res.status(200).json({
       data: filteredData,

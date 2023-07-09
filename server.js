@@ -6,4 +6,3 @@ const aplication = require("./application");
 aplication.listen(process.env.PORT, () => {
   console.log("Welcome to the Node.js server!");
 });
-("");
